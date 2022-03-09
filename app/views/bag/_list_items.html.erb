@@ -1,0 +1,25 @@
+<% items.each do |item| %>
+   <div class="item">
+     <div class="buttons">
+       <%= image_tag "delete.png", size: "24x24", class: :delete_btn, data: { :id => item.id } %>
+     </div>
+
+     <div class="image">
+       <%= image_tag "#{item.id}.png",size: "250x120" %>
+     </div>
+
+     <div class="description">
+       <span><%= item.item %></span>
+       <span><%= item.category %></span>
+     </div>
+
+     <div class="quantity">
+      <%= submit_tag "-", type: :button, onclick: "", class: :minus_btn, data: { :id => item.id } %>
+      <span class="span_quantity-<%= item.id %>"><%= item.quantity %></span>
+      <%= submit_tag "+", type: :button, class: :plus_btn, data: { :id => item.id } %>
+
+     </div>
+
+     <div class="total-price-<%= item.id %>">$<%= item.price %></div>
+   </div>
+<% end %>

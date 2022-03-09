@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+	<Item>
+		<Name>КРОССОВКИ Y-3 HOKORI II</Name>
+		<Category>Y-3</Category>
+		<Cost>291.17</Cost>
+		<Quantity>1</Quantity>
+	</Item>
+	<Item>
+		<Name>КРОССОВКИ Y-3 SHIKU</Name>
+		<Category>Y-3</Category>
+		<Cost>344.11</Cost>
+		<Quantity>1</Quantity>
+	</Item>
+	<Item>
+		<Name>КРОССОВКИ CRAIG GREEN ZX 2K PHORMAR II</Name>
+		<Category>Originals</Category>
+		<Cost>317.64</Cost>
+		<Quantity>2</Quantity>
+	</Item>
+	<Item>
+		<Name>ФУТБОЛЬНЫЕ БУТСЫ X SPEEDFLOW.1 SG</Name>
+		<Category>Футбол</Category>
+		<Cost>291.17</Cost>
+		<Quantity>1</Quantity>
+	</Item>
+	<Item>
+		<Name>КРОССОВКИ OZELIA</Name>
+		<Category>Originals</Category>
+		<Cost>119.11</Cost>
+		<Quantity>1</Quantity>
+	</Item>
+	<Item>
+		<Name>ФУТБОЛЬНЫЕ БУТСЫ PREDATOR FREAK+ PAUL POGBA X STELLA MCCARTNEY FG</Name>
+		<Category>Футбол</Category>
+		<Cost>344.11</Cost>
+		<Quantity>1</Quantity>
+	</Item>
+	<Item>
+		<Name>КРОССОВКИ Y-3 KAIWA</Name>
+		<Category>Y-3</Category>
+		<Cost>357.34</Cost>
+		<Quantity>1</Quantity>
+	</Item>
+</Items>

@@ -1,0 +1,10 @@
+<div class="shop">
+   <%= button_to 'Load items in bag', load_items_path, class: :button_load, method: :post, remote: true %>
+   <div class="title">
+      <span>your  bag <%= image_tag "filter.png",size: "24x24", class: :filter, title: "Filter" %></span>
+   </div>
+   <h2 class='total'>TOTAL: $<%= @cost.floor(2) %> (<%= @quantity %> item)</h2>
+   <div class='items'>
+      <%= render partial: 'list_items', locals: {items: @items} %>
+   </div>
+</div>
